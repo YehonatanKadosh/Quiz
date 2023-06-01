@@ -1,0 +1,33 @@
+.app-slider {
+  text-align: center;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.quiz-slider-main {
+  flex: 1;
+  display: flex;
+}
+
+.navigation-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quiz-stepper {
+  width: 100%;
+}
+
+.slider-main {
+  flex: 10;
+  overflow: hidden;
+  align-self: center;
+}
